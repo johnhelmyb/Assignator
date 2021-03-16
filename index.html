@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Assignation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!---------- Section principale ---------->
+    <section class="card text-white bg-info mb-3">
+        <div class="card-header">
+            <h1>Project Assignation</h1>
+        </div>
+
+        <div class="card-body">
+            <!------------------------------ Students ------------------------------>
+            <div class="students">
+                <h3>Students</h3>
+                <ul id="listName"></ul>
+    
+    
+                <input id="name" type="text" placeholder="Name">
+                <button id="buttonName" type="button" class="btn btn-secondary">Add</button>
+    
+            </div>
+    
+            <!------------------------------ Topics ------------------------------>
+            <div class="topics">
+                <h3>Topics</h3>
+                <ul id="listVeille"></ul>
+                <input id="veille" type="text" placeholder="Subject">
+                <button id="buttonAssign" type="button" class="btn btn-secondary">Assign</button> <br>
+    
+            </div>
+
+            <!------------------------------ Buttons ------------------------------>
+            <div id="buttons">
+                <button id="refresh" type="button" class="btn btn-secondary">Refresh The List</button>
+                <button id="clear" type="button" class="btn btn-danger">Clear All</button>
+            </div>
+        </div>        
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
